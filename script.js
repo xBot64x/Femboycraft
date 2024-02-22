@@ -1,39 +1,3 @@
-var backgrounds = [
-  'background/background1.png',
-  'background/background2.png',
-  'background/background3.png',
-  'background/background4.png',
-  'background/background5.png',
-  'background/background6.png',
-  'background/background7.png'
-];
-
-// vybere náhodnou tapetu
-var randomIndex = Math.floor(Math.random() * backgrounds.length);
-
-// nastavit proměnnou na pozadí
-var body = document.getElementById('randomBg');
-
-// nastaví náhodné pozadí
-body.style.backgroundImage = 'url(' + backgrounds[randomIndex] + ')';
-
-function copyToClipboard() {
-  const textToCopy = "95.82.185.15:25565";
-  const dummyInput = document.createElement("textarea");
-  document.body.appendChild(dummyInput);
-  dummyInput.value = textToCopy;
-  dummyInput.select();
-  document.execCommand("copy");
-  document.body.removeChild(dummyInput);
-
-  const message = document.getElementById("Popup");
-  message.style.display = "block";
-
-  setTimeout(function() {
-    message.style.display = "none";
-  }, 1000);
-};
-
 function Popup() {
   const message = document.getElementById("Popup");
   message.style.display = "block";

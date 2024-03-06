@@ -10,47 +10,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body id="randomBg">
-    <!-- toto neměnit -->
-	<script src="script.js"></script>
-	<div class="header">
-		<div class="container">
-			<a href="index.html">
-				<img src="images/domu.webp" class="image-btn" alt="domů">
-			</a>
-		</div>
-		<div class="container">
-			<a href="novinky.html">
-				<img src="images/novinky.webp" class="image-btn" alt="novinky">
-			</a>
-		</div>
-		<div class="container">
-			<a href="galerie.html">
-				<img src="images/galerie.webp" class="image-btn" alt="galerie">
-			</a>
-		</div>
-		<div class="container">
-			<a href="pripojit_se.html">
-				<img src="images/pripojit_se.webp" class="image-btn scaling-button" alt="PŘIPOJIT SE">
-			</a>
-		</div>
-		<div class="container">
-			<a href="pravidla.html">
-				<img src="images/pravidla.webp" class="image-btn" alt="pravidla">
-			</a>
-		</div>
-		<div class="container">
-			<a href="o_serveru.html">
-				<img src="images/o_serveru.webp" class="image-btn" alt="o serveru">
-			</a>
-		</div>
-		<div class="container">
-			<a href="kontakt.html">
-				<img src="images/kontakt.webp" class="image-btn" alt="kontakt">
-			</a>
-		</div>
-	</div>
-    <!-- toto se smí měnit -->
+<body>
+	<?php require 'php/header.php';?> <!-- header a footer se upravuje pro všechny stránky ve složce php -->
 
 	<div class="main">
 		<div class="main-container">
@@ -95,22 +56,6 @@
 			</div>
 		</div>
 
-    <!-- po sem se smí měnit -->
-    <!-- toto neměnit -->
-	<div class="footer footer-fixed">
-		<div class="footer-left">
-			<p>femboycraft.cz</p>
-		</div>
-		<div class="footer-center">
-			<a href="#"><img src="images/twitter.png"></a>
-			<a href="#"><img src="images/facebook.png"></a>
-			<a href="https://discord.gg/8bFqVUmMEX" target="_blank"><img src="images/discord.png"></a>
-			<a href="mailto:Bot64@proton.me"><img src="images/mail.png"></a>
-		</div>
-		<div class="footer-right">
-			<p>©2023</p>
-		</div>
-		
-	</div>
+	<?php require 'php/footer.php';?>
 </body>
 </html>

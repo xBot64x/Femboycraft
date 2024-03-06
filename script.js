@@ -1,3 +1,20 @@
+function copyToClipboard() {
+  const textToCopy = "95.82.185.15:25565";
+  const dummyInput = document.createElement("textarea");
+  document.body.appendChild(dummyInput);
+  dummyInput.value = textToCopy;
+  dummyInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(dummyInput);
+
+  const message = document.getElementById("Popup");
+  message.style.display = "block";
+
+  setTimeout(function() {
+    message.style.display = "none";
+  }, 1000);
+};
+
 function Popup() {
   const message = document.getElementById("Popup");
   message.style.display = "block";

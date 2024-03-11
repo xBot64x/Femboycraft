@@ -1,4 +1,20 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css">
+</head>
 <script src="script.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P2B44P684F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2B44P684F');
+</script>
+
+<script type="module" src="cookieconsent-config.js"></script>
+
 <body>
     <div class="header">
         <div class="container">

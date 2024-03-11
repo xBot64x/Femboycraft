@@ -6,4 +6,4 @@
 ### FemboyKraft_soubory - složka s EXCEL/WORD/PDF soubory, informace o naší práci
 připojte se: 95.82.185.15:25565
 minecraft verze: 1.20.4
-na práci se podíleli všichni a jsme rádi že je vše funkčni, některé funkce a odkazy jsou více popsány v formě EXCEL tabulky
+na práci se podíleli všichni a jsme rádi že je vše funkčni, některé funkce a odkazy jsou více popsány v formě EXCEL tabulky kde jsou popsáni všichni členové jejich práce a další důležité faktory

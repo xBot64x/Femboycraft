@@ -1,6 +1,6 @@
 # FemboyCraft - Minecraft Projekt
 ## přidejte se k nejlepší minecraft komunitě na nejlepším minecraft serveru FemboyCraft!
-## Filip Kníže, Dominik Fasora, Pavel Bartoš, Lukáš Pohoralec, Jakub Jegla
+## Filip , Dominik , Pavel , Lukáš , Jakub 
 prohlédněte si web: [femboycraft.rf.gd](http://femboycraft.rf.gd/index.php)
 
 připojte se: 95.82.185.15:25565

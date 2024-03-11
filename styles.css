@@ -102,6 +102,14 @@ a:hover {
   width: 512px;
 }
 
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: #FFF200;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /*   hlavní pole   */
 .main {
   display: flex;
@@ -164,16 +172,16 @@ a:hover {
   position: fixed
 }
 
+.footer-center {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-center img {
   width: 32px;
   padding-left: 10px;
   padding-right: 10px;
   transition: 0.1s filter ease-in-out;
-}
-
-.footer-center {
-  display: flex;
-  justify-content: center;
 }
 
 .footer-center img:hover {
@@ -225,7 +233,7 @@ a:hover {
 .column img {
   vertical-align: middle;
   width: 100%;
-  object-fit: scale-down;
+  object-fit:cover;
   transition: transform 0.1s ease-in;
   padding: 8px 0px 8px 0px;
 }
@@ -274,6 +282,27 @@ a:hover {
   .mobile-sidebar {
     display: flex;
   }
+  .footer{
+    padding-left: 7%;
+    padding-right: 7%;
+    width: calc(100% - 14%);
+  }
+}
+
+.footer-center-mobile{
+  display: none;
+}
+
+.footer-center-mobile img {
+  width: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.1s filter ease-in-out;
+}
+
+.footer-center-mobile img:hover {
+  filter: brightness(60%);
+  cursor: hand;
 }
 
 /*    Užší responzivnost    */
@@ -299,5 +328,16 @@ a:hover {
     padding-left: 5%;
     padding-right: 5%;
     width: calc(100% - 10%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
+  
+  .footer-center {
+    display: none;
+  }
+
+  .footer-center-mobile{
+    display: inline;
+  }
+
 }

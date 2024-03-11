@@ -4,6 +4,7 @@
 	<title>Femboy-Craft CZ</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
 	<meta charset="UTF-8">
 	<meta name="description" content="Minecraft server">
 	<meta name="keywords" content="Minecraft, server, femboy, free">
@@ -13,15 +14,16 @@
 <body>
 	
 	<?php require 'php/header.php';?> <!-- header a footer se upravuje pro všechny stránky ve složce php -->
-
 	<div class="main">
 		<div class="main-container">
 			<div class="main-content">
 				<h1>Jak se připojit</h1>
+				
 				<h2>požadavky:</h2>
-				<p>minecraft java verze 1.20.4</p>
+				<p>minecraft java 1.20.4</p>
                 <p>neplacený nebo placený minecraft</p>
                 <h2>Postup:</h2>
+
                 <p>1. vstupte v minecraftu do multiplayer menu</p>
                 <p>2. vyberte přidat server</p>
                 <p>3. zadejte libovolný název serveru</p>

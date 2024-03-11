@@ -34,13 +34,17 @@ function getPlayerCount() {
     if (data.online) {
       const playerCount = data.players.online;
       document.getElementById('playerCount').innerText = `Počet aktivních hráčů: ${playerCount}`;
+      document.getElementById('circle').style.background='#4CFF00';
+      document.getElementById('version').innerText = `Minecadsdadraft java ${data.version}`;
     } else {
       document.getElementById('playerCount').innerText = 'Server je offline';
+      document.getElementById('circle').style.background='#FF0000';
     }
   })
   .catch(error => {
     console.log('Chyba hledání počtu hráčů:', error);
     document.getElementById('playerCount').innerText = 'Chyba hledání počtu hráčů';
+    document.getElementById('version').innerText = `Minecadsdadraft java ${data.version}`;
   });
 }
 

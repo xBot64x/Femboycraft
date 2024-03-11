@@ -29,7 +29,7 @@
         $thumbnails = glob($thumbnail_dir . "*.{jpg,jpeg,png,gif,webp}", GLOB_BRACE);
         $count = 0;
         foreach ($thumbnails as $thumbnail) {
-            if ($count % 3 == 0) {
+            if ($count % 1 == 0) {
                 echo '<div class="column">';
             }
             $filename = basename($thumbnail);
@@ -41,7 +41,7 @@
                 echo "<a href=\"$image_path\" target=\"_blank\"><img src=\"$thumbnail\"></a>"; 
             }
             $count++;
-            if ($count % 3 == 0) {
+            if ($count % 1 == 0) {
                 echo '</div>';
             }
         }

@@ -23,9 +23,13 @@
 				<p>Oficiální web serveru femboycraft.cz</p>
 				<p>Užijte si vanilla zážitek s vašimi kamarády.</p>
 				<p>Přidejte se ke stovkám dalších hráčů na nejlepší vždy aktuální minecraft server!</p>
-				<p id="playerCount">Hledání počtu hráčů...</p>
+				<div style="display: flex;">
+					<span class="circle" id="circle"></span>
+					&nbsp;&nbsp;
+					<p id="playerCount">Hledání počtu hráčů...</p>
+				</div>
 				<p>95.82.185.15:25565</p>
-				<p>minecraft 1.20.4</p>
+				<p id="version">minecraft 1.20.4</p>
 				<h1>Mapa Serveru</h1>
                 <p>Je možné si prohlédnou mapu serveru z prohlížeče pomocí bluemap.</p>
                 <p><a href="http://95.82.185.15:8100" target="_blank">prohlédněte si mapu</a></p>
@@ -33,8 +37,8 @@
 		</div>	
 	</div>
 	<br>
-	<div class="container">
-		<a href="pripojit_se.php" class="image-btn"><img class="scaling-button" src="images/pridejtese.webp"></a>
+	<div class="container" >
+		<a href="pripojit_se.php" class="image-btn"><img class="scaling-button" style="max-width: 95vw;" src="images/pridejtese.webp"></a>
 	</div>
 	<br>
 	

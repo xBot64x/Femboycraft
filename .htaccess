@@ -1,0 +1,14 @@
+DirectoryIndex index.php
+
+ErrorDocument 403 http://femboycraft.rf.gd/403
+ErrorDocument 404 http://femboycraft.rf.gd/404
+ErrorDocument 500 https://errors.infinityfree.net/errors/500/
+
+RewriteEngine on
+
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]

@@ -19,7 +19,7 @@ body, h1, h2, h3, p, table, a{
 /*   text   */
 h1, h2, h3, p, a, label{
   color: var(--text);
-  font-family: Consolas;
+  font-family: consolasregular;
   line-height: 135%;
 }
 p{
@@ -27,9 +27,11 @@ p{
 }
 h1{
   font-size: 42px;
+  font-family: consolasbold;
 }
 h2{
   font-size: 35px;
+  font-family: consolasbold;
 }
 h3{
   font-size: 24px;
@@ -47,6 +49,47 @@ a:hover {
   color: #f8ff19;
 }
 
+/* fonty*/
+
+@font-face {
+  font-family: 'consolasregular';
+  src: url('fonts/consola.ttf') format('truetype'),
+       url('fonts/consola-webfont.woff2') format('woff2'),
+       url('fonts/consola-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'consolasbold';
+  src: url('fonts/consolab.ttf') format('truetype'),
+       url('fonts/consolab-webfont.woff2') format('woff2'),
+       url('fonts/consolab-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'consolasitalic';
+  src: url('fonts/consolai.ttf') format('truetype'),
+       url('fonts/consolai-webfont.woff2') format('woff2'),
+       url('fonts/consolai-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'consolasbold_italic';
+  src: url('fonts/consolaz.ttf') format('truetype'),
+       url('fonts/consolaz-webfont.woff2') format('woff2'),
+       url('fonts/consolaz-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 /*   nepoužívané   */
 .container {
@@ -118,6 +161,7 @@ a:hover {
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   width: 100%;
   position: relative;
   box-shadow: 0px 0px 50px black;
@@ -163,8 +207,9 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   width: calc(100% - 120px);
 }
 
@@ -202,6 +247,7 @@ a:hover {
   background-color:rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   position: absolute;
   top: -20px;
   left: 50%;

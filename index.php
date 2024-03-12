@@ -31,7 +31,7 @@
 				<p>95.82.185.15:25565</p>
 				<p id="version">minecraft 1.20.4</p>
 				<h1>Mapa Serveru</h1>
-                <p>Je možné si prohlédnou mapu serveru z prohlížeče pomocí bluemap.</p>
+                <p>Je možné si prohlédnout mapu serveru z prohlížeče pomocí bluemap.</p>
                 <p><a href="http://95.82.185.15:8100" target="_blank">prohlédněte si mapu</a></p>
 			</div>
 		</div>	

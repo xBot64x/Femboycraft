@@ -49,6 +49,8 @@
                 <p>Při tvorbě pozadí webové stránky byl použit shader <a href="https://modrinth.com/shader/complementary-unbound" target="_blank">Complementary Shaders - Unbound</a>.</p>
                 <p>Osobně chci poděkovat Coded925 za úžasný nápad nastylovat menu tlačítka do stylu fortnitu.</p>
                 <p>Cookies lišta je upravený open source kód <a href="https://github.com/orestbida/cookieconsent" target="_blank">cookieconsent</a>.</p>
+                <h1>Důležité informace</h1>
+                <p><a href="zpracovaniudaju.php">Ochrana usobních údajů</a></p>
             </div>
         </div>
     </div>

@@ -37,7 +37,7 @@ CookieConsent.run({
                     acceptAllBtn: "Přijmout vše",
                     acceptNecessaryBtn: "Odmítnout vše",
                     showPreferencesBtn: "Upravit preference",
-                    footer: "<a href=\"#link\">Ochrana osobních údajů</a>\n<a href=\"#link\">Smluvní podmínky</a>"
+                    footer: "<a href=\"zpracovaniudaju.php\">Ochrana osobních údajů</a>"
                 },
                 preferencesModal: {
                     title: "Možnosti cookies",

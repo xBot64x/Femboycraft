@@ -19,7 +19,7 @@
 	<div class="main">
 		<div class="main-container">
 			<div class="main-content">
-				<h1>femboycraft.cz</h1>
+				<h1>FemboyCraft.cz</h1>
 				<p>Oficiální web serveru femboycraft.cz</p>
 				<p>Užijte si vanilla zážitek s vašimi kamarády.</p>
 				<p>Přidejte se ke stovkám dalších hráčů na nejlepší vždy aktuální minecraft server!</p>
